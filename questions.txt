@@ -1,79 +1,79 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expect it to print greetings and ask me to input a string
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+It output: 149-160-156-59:E01a-Control-Structues jacobbailey$
 What do you think the program did with what you typed?
-
+Nothing it just spit back out the name of the repository I think
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+It ties the input function to a value then prints the value
 What do you think the color = input() will do? 
-
+ties my input to a value
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+Yeah it spit back out my color
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+Gives me an if else condition
 What is happening on lines 11–14? 
-
+Gives a condition that directs output based on a certain input
 Why are lines 12 and 14 indented? 
-
+because they are a part of the code on the lines before 
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+Prints "sorry try again"
 What does this tell you about "color"?
-
+the input must have bet capitalized in order to output the color
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+has an or statement
 What problem is this trying to solve? 
-
+it will take in a non-capitalized color
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+prints "sorry try again"
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+Allows for any variation of capitalizations in the word "red"
 What problem is it trying to solve? 
-
+allows the user to input any variation of "red"
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+"sorry try again"
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+added ".strip()"
 What would you guess .strip() is doing? 
-
+allows for spaces
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+adding any sort of punctuation
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+allows for a different color
 What is the purpose of line 11? 
-
+allows for spaces and any capitalizations
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+loops the program if the condition is still met
 Why are lines 12–19 indented? 
-
+they are apart of the while() statement
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+it wouldnt keep looping the question
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
-
+loops the program while the color does not equal red
 What is the purpose of “count”? 
-
+to record how many times the program loops
 What is happening on line 22? 
-
+prints the count value
 Run the program.
 
 
